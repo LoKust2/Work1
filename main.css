@@ -1,12 +1,23 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+
+/* logo */
+
+
+position: absolute;
+width: 119px;
+height: 49px;
+left: 382px;
+top: 26px;
+
+background: url(vspacelogo-05.png);
 /* BG */
 
 position: absolute;
 width: 3105px;
 height: 4551px;
-left: -297px;
+left: 0px;
 top: 0px;
 
 
@@ -107,10 +118,24 @@ top: 132px;
 
 background: linear-gradient(180deg, #CFE1FF 0%, rgba(239, 239, 251, 0) 100%);
 
+/* Rectangle 8 */
+
+
+position: absolute;
+width: 1149px;
+height: 272px;
+left: 0px;
+top: 0px;
+
+/* primary */
+
+background: linear-gradient(90deg, #5338DD 0%, #97489C 100%);
+border-radius: 15px;
 }
 
 header {
   padding: 20px 0;
+  
 }
 
 header .row,
@@ -134,35 +159,44 @@ header p {
   margin: 0;
 }
 
-.jumbotron {
+header img{
+  position: absolute;
+  width: 119px;
+  height: 49px;
+  left: 382px;
+  top: 26px;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: url(vspacelogo-05.png);
+}
+.jumbotron {
   /* Rectangle 8 */
 
-  width: 1149px;
-  height: 272px;
-  left: 0px;
-  top: 0px;
+position: absolute;
+width: 1149px;
+height: 272px;
+left: 0px;
+top: 0px;
 
 /* primary */
 
-  background: linear-gradient(90deg, #5338DD 0%, #97489C 100%);
-  border-radius: 15px;
+background: linear-gradient(90deg, #5338DD 0%, #97489C 100%);
+border-radius: 15px;
 }
 
-.jumbotron h2 {
-  font-size: 60px;
-  font-weight: 700;
-  margin: 0;
-  color: #fff;
+.jumbotron container{
+  flex: auto;
+  justify-content: center;
   align-items: center;
+
 }
 
-.jumbotron h3 {
-  margin: 0 0 20px;
-  color: #fff;
+.jumbotron img{
+  /* Vector */
+
+  left: 0%;
+  right: 0%;
+  top: 6.25%;
+  bottom: 6.25%;
 }
 
 .col-md-6 {
@@ -251,3 +285,4 @@ ul.no-bullets {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
 }
+
